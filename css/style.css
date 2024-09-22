@@ -44,14 +44,16 @@ h3 {
 h2 {
   font-size: 20px;
 }
+h5 {
+  width: 20%;
+  margin: 20px;
+}
 h6 {
   font-family: "YuMincho";
   font-size: 18px;
   line-height: 2rem;
   font-weight: 400;
-}
-h5 {
-  width: 20%;
+  margin: 15px;
 }
 /* ----------------------
   ヘッダー
@@ -402,7 +404,7 @@ li {
 }
 .page-top img {
   margin: 0 auto;
-  width: 5%;
+
   padding: 20px;
 }
 /* ----------------------
