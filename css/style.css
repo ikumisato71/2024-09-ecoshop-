@@ -103,8 +103,22 @@ header::after {
   position: absolute;
   z-index: 0;
 }
+/* .mv-photo-big {
+  background-color: #9f9f9f;
+  margin-bottom: 60px;
+} */
+.mv-photo-big {
+  width: 100%;
+  height: 100%;
+}
+
+/* .slide-items img {
+  width: 100%;
+  object-fit: cover;
+} */
 .mv-photo-big img {
   width: 90%;
+  object-fit: cover;
 }
 .mv-photo-mini {
   direction: rtl;
