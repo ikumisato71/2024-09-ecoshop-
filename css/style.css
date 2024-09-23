@@ -446,12 +446,13 @@ footer {
    ---------------------- */
 .sidebar {
   width: 100%;
+  padding: 10px;
 }
 .item {
   width: 100%;
   display: flex;
 }
-#items-center {
+#items-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -516,5 +517,95 @@ footer {
   body {
     min-width: 375px;
     margin: 0;
+  }
+  #main-visual {
+    height: 40vh;
+  }
+  .main-massage {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+  .main-massage img {
+    width: 50%;
+  }
+  .about-top-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-top-left,
+  .about-top-right {
+    width: 100%;
+    margin-top: 110px;
+  }
+  .about-end {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+  }
+  .about-end-right {
+    margin-top: 450px;
+  }
+  #product {
+    margin-top: 250px;
+  }
+  .product-top,
+  .product-center,
+  .product-end {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-top-left,
+  .product-top-right,
+  .product-center-left,
+  .product-center-center,
+  .product-center-right,
+  .product-end-left,
+  .product-end-right {
+    width: 100%;
+  }
+  .news-text {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .news-text-left,
+  .news-text-right {
+    width: 100%;
+  }
+  #contact {
+    margin: 300px 0 0 0;
+  }
+  .contact-photo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact-photo-top1,
+  .contact-photo-top2,
+  .contact-photo-top3 {
+    width: 100%;
+  }
+  .contact-photo-top1 img,
+  .contact-photo-top2 img {
+    width: 100%;
+  }
+  .footer-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  /* shop html */
+
+  .beauty-wrapper,
+  .food-wrapper,
+  .fashion-wrapper {
+    display: block;
+  }
+
+  .item-beauty,
+  .item-food,
+  .item-fashion {
+    width: 100%;
   }
 }
