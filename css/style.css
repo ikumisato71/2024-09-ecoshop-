@@ -425,12 +425,7 @@ footer {
   color: #fff;
   padding: 20px;
 }
-/* .footer-link a:link {
-  color: #0d0d0d;
-} */
-/* #nav-pc > a:visited {
-  color: #fff;
-} */
+
 .footer-link a:hover {
   color: #888484;
   text-decoration: underline;
@@ -460,7 +455,6 @@ footer {
 #item-top,
 #item-center,
 #item-end {
-  flex-wrap: wrap;
   padding-bottom: 60px;
   margin-bottom: 60px;
 }
@@ -480,13 +474,11 @@ footer {
 .fashion-wrapper {
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
 }
 .item-beauty,
 .item-food,
 .item-fashion {
-  width: 30%;
-  height: 510px;
+  text-align: center;
 }
 .shop-btn {
   background-color: #262627;
